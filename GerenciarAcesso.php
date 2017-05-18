@@ -15,7 +15,7 @@
 
 	<form action="" style="margin-top: 35px; padding: 0px 0px 0px 10px;">
 		Exlcluir acesso: <input type="text" name="ex_nome"><br>
-		<input type="submit" name="Exlcluir">
+		<input type="submit" name="Excluir">
 	</form>
 </body>
 </html>

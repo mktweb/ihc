@@ -12,7 +12,7 @@
 <?php if ($is_root): ?>
        <a href="adduser.php">Gerenciar Acessos</a><br/>
 <?php endif; ?>
-       <a href="#">Gerenciar Senhas</a><br/>
-       <a href="#">Relatório Gerencial</a><br/>
+       <a href="managepass.php">Gerenciar Senhas</a><br/>
+       <a href="report.php">Relatório Gerencial</a><br/>
 </body>
 </html>

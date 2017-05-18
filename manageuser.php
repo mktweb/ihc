@@ -3,6 +3,7 @@
     if(!$_SESSION['root'])
         header("main.php");
 ?>
+<!DOCTYPE html>
 <html>
 <body>
 <form action="add.php" method="post">
@@ -14,6 +15,8 @@
         <option value=""></option>
     </select>
     <br/>
+    <label>Novo Serviço</label>
+    <br>
     <input type="text" name="new_service">
     <label>Nome do usuário (login)</label>
     <input type="text" name="username"/>
