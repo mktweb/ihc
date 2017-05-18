@@ -10,9 +10,9 @@
 <html>
 <body>
 <?php if ($is_root): ?>
-       <a href="adduser.php">Gerenciar Login</a><br/>
+       <a href="adduser.php">Gerenciar Acessos</a><br/>
 <?php endif; ?>
-       <a href="#">Gerenciar acesso</a><br/>
+       <a href="#">Gerenciar Senhas</a><br/>
        <a href="#">Relatório Gerencial</a><br/>
 </body>
 </html>
