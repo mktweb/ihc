@@ -10,15 +10,17 @@
     <label>Nome do Prestador de serviço</label>
     <input type="text" name="username"/>
     <br/>
-    <label>Serviço Contratado</label>
+    <label for="service">Serviço Contratado</label>
     <select name="service">
         <option value=""></option>
     </select>
     <br/>
-    <label>Novo Serviço</label>
+    <div style="display: none;">
+        <label for="service">Novo Serviço</label>
+        <input type="text" name="new_service">
+    </div>
     <br>
-    <input type="text" name="new_service">
-    <label>Nome do usuário (login)</label>
+    <label for="">Nome do usuário (login)</label>
     <input type="text" name="username"/>
     <br/>
     <label>Senha do usuário</label>
