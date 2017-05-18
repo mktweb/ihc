@@ -36,6 +36,7 @@ if (authenticate($username, $password)) {
     header("location: main.php");
 } else {
     echo "Fail!";
+    echo '<button type="button" onclick="javascript.window.back(1);">Voltar</button>';
 }
 
 ?>

@@ -1,5 +1,7 @@
 <?php
     session_start();
+    if(!$_SESSION['root'])
+        header("main.php");
 ?>
 <html>
 <body>
@@ -8,8 +10,11 @@
     <input type="text" name="username"/>
     <br/>
     <label>Serviço Contratado</label>
-    <input type="text" name="service"/>
+    <select name="service">
+        <option value=""></option>
+    </select>
     <br/>
+    <input type="text" name="new_service">
     <label>Nome do usuário (login)</label>
     <input type="text" name="username"/>
     <br/>
