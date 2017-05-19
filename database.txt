@@ -1,1 +1,0 @@
-prest_servic;servico;username;password;link;utilizador

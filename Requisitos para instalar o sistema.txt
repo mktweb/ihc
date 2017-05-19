@@ -1,0 +1,11 @@
+Requisitos para instalar o sistema:
+
+Sistema Operacional Linux Ubuntu 14.04 ou superior
+Apache 2 ou superior
+PHP 5.3 ou superior
+
+Instruções:
+
+-Copiar todos os arquivos da pasta "pages" para dentro da pasta principal do servidor Apache
+-Inserir permissão de leitura e escrita para usuário do sistema e grupo do usuário para os arquivos "l.txt" e "database.txt"
+-Acessar a URL principal do servidor onde o sistema foi instalado
